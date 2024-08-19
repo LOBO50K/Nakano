@@ -12,9 +12,9 @@ import axios from 'axios';
 // Variables globales
 // ╰─────────────────────────────────────────────╮
 global.owner = [
-  ['51913091648', 'CURI', true], // Mantener este numero para el reporte de los errores
-  ['5xxxxxxxxxx', 'Nose', true], // Ponga tu número para ser moderador
-  ['5491126788746', 'JTxs', true]
+  ['5493405480284', 'lobo', true], // Mantener este numero para el reporte de los errores
+  ['5493405480284', 'lobo', true], // Ponga tu número para ser moderador
+  ['5493405480284', 'lobo', true]
 ];
 global.mods = ['51914564564', '51916456464']; 
 global.prems = ['519134564', '5191456645', '5191309456']; 
@@ -68,7 +68,7 @@ global.APIKeys = {
 // Otras variables globales
 // ╰─────────────────────────────────────────────╮
 global.id_canal = '120363274577422945@newsletter' //ID CANAL REM = 120363299269381797@newsletter
-global.name_canal = '𝚁𝙴𝙼𝙲𝙷𝙰𝙼 𝙱𝚈 𝙶𝙰𝙱𝚁𝙸𝙴𝙻 - 𝙹𝚃𝚇𝚂'
+global.name_canal = 'Nakano-Bot canal oficial'
 global.rcanal = 'https://whatsapp.com/channel/0029VaeQcFXEFeXtNMHk0D0n'
 global.canal = 'https://whatsapp.com/channel/0029VaeQcFXEFeXtNMHk0D0n'
 global.botname = '𝚁𝙴𝙼𝙲𝙷𝙰𝙼';
