@@ -14,7 +14,7 @@ handler.all = async function (m) {
                 mediaType: 'VIDEO',
                 description: 'soporte',
                 title: packname,
-                body: '𝚁𝙴𝙼-𝙱𝙾𝚃 𝙱𝚈 𝙲𝚄𝚁𝙸',
+                body: 'NAKANO-BOT',
                 thumbnailUrl: pp,
                 sourceUrl: dygp
             }
@@ -29,7 +29,7 @@ handler.all = async function (m) {
                 mediaType: 'VIDEO',
                 description: 'Donacion',
                 title: 'YOUTUBE',
-                body: '𝚁𝙴𝙼-𝙱𝙾𝚃 𝙱𝚈 𝙲𝚄𝚁𝙸',
+                body: 'NAKANO-BOT',
                 thumbnailUrl: pp,
                 sourceUrl: fgyt
             }
@@ -45,7 +45,7 @@ handler.all = async function (m) {
                 mediaType: 'VIDEO',
                 description: 'Suscribete : ' + fgyt,
                 title: 'YouTube',
-                body: '𝚁𝙴𝙼-𝙱𝙾𝚃 𝙱𝚈 𝙲𝚄𝚁𝙸',
+                body: 'NAKANO-BOT',
                 thumbnailUrl: pp,
                 sourceUrl: fgyt
             }
