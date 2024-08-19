@@ -69,11 +69,11 @@ global.APIKeys = {
 // ╰─────────────────────────────────────────────╮
 global.id_canal = '120363274577422945@newsletter' //ID CANAL REM = 120363299269381797@newsletter
 global.name_canal = 'Nakano-Bot canal oficial'
-global.rcanal = 'https://whatsapp.com/channel/0029VaeQcFXEFeXtNMHk0D0n'
-global.canal = 'https://whatsapp.com/channel/0029VaeQcFXEFeXtNMHk0D0n'
-global.botname = '𝚁𝙴𝙼𝙲𝙷𝙰𝙼';
+global.rcanal = 'https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K'
+global.canal = 'https://whatsapp.com/channel/0029VaXDEwlC1FuFm82otA0K'
+global.botname = 'NAKANO';
 global.premium = 'true';
-global.packname = 'ℭ𝔲𝔯𝔦-𝔅𝔬𝔱';
+global.packname = 'LOBO';
 global.author = '@holabb123';
 global.menuvid = 'https://telegra.ph/file/c92cd247a11a336199650.mp4';
 global.igfg = '▢ Sigueme en Instagram\nhttps://www.instagram.com/Josecurisoto\n';
