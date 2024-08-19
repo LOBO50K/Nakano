@@ -2,7 +2,7 @@ import { createHash } from 'crypto';
 import { canLevelUp, xpRange } from '../lib/levelling.js';
 import axios from 'axios';
 
-const imgUrl = 'https://telegra.ph/file/877a52fd8121b5dade97b.jpg';
+const imgUrl = 'https://telegra.ph/file/479e84c0c1cb54da3b124.jpg';
 
 let handler = async (m, { conn, usedPrefix, command }) => {
         if (typeof conn.profilePictureUrl !== 'function' || typeof conn.fetchStatus !== 'function') {
@@ -63,17 +63,17 @@ ${about}
     │ [${progressBar}] (${levelProgress * 5}%)
     │
     │────────────────────
-    │ 𝚈𝙾 𝚂𝙾𝚈 𝚁𝙴𝙼 𝙲𝙷𝙰𝙼 :𝟹
+    │ YO SOY NAKANO-BOT :𝟹
     │
     │ 𝚅𝚒𝚜𝚒𝚝𝚊 𝚗𝚞𝚎𝚜𝚝𝚛𝚘 𝚜𝚒𝚝𝚒𝚘 𝚠𝚎𝚋:
     │
-    │ https://rem-cham-md-web.vercel.app
+    │ 
     │
     │ 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚘: [𝙶𝚒𝚝𝙷𝚞𝚋]
     │
-    │(https://github.com/davidprospero123/REM-CHAM-MD)
+    │(https://github.com/LOBO50K/Nakano.git)
     │────────────────────
-    │ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚄𝚁𝙸
+    │ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 LOBO
     ╰────────────────────
     `;
 
