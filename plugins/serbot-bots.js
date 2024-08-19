@@ -17,13 +17,13 @@ async function handler(m, { conn, usedPrefix }) {
 
     const connectedUserCount = connectedUsers.size;
     if (connectedUserCount > 0) {
-      const imageBuffer = await axios.get("https://telegra.ph/file/70d9e3cd0815ea641b788.jpg", { responseType: "arraybuffer" });
+      const imageBuffer = await axios.get("https://telegra.ph/file/4b59e9b1264db9bd79df7.jpg", { responseType: "arraybuffer" });
       await conn.sendFile(m.chat, imageBuffer.data, 'image.jpg', '⌛ _𝘾𝘼𝙍𝙂𝘼𝙉𝘿𝙊..._▰▰▰▱▱▱▱▱-𝘉𝘖𝘛𝘚');
 
       const userList = [...connectedUsers].join(`\n`);
-      await m.reply(`𝐄𝐒𝐓𝐎𝐒 𝐒𝐎𝐍 𝐋𝐎𝐒 𝐒𝐔𝐁 𝐁𝐎𝐓𝐒 𝐀𝐂𝐓𝐈𝐕𝐎𝐒 𝐃𝐄 𝐑𝐄𝐌:\n${userList}`);
+      await m.reply(`𝕰𝖘𝖙𝖔𝖘 𝖘𝖔𝖓 𝖑𝖔𝖘 𝖘𝖚𝖇 𝖇𝖔𝖙 𝖆𝖈𝖙𝖎𝖛𝖔𝖘 𝖉𝖊 𝖓𝖆𝖐𝖆𝖓𝖔:\n${userList}`);
     } else {
-      await m.reply("𝙽𝚘 𝚑𝚊𝚢 𝚗𝚒𝚗𝚐𝚞𝚗 𝚜𝚞𝚋 𝚋𝚘𝚝 𝚍𝚎 𝚛𝚎𝚖 𝚊𝚌𝚝𝚒𝚟𝚘 𝚊𝚌𝚝𝚞𝚊𝚕𝚖𝚎𝚗𝚝𝚎");
+      await m.reply("𝕹𝖔 𝖍𝖆𝖞 𝖓𝖎𝖓𝖌𝖚𝖓 𝖘𝖚𝖇 𝖇𝖔𝖙 𝖆𝖈𝖙𝖚𝖆𝖑𝖒𝖊𝖓𝖙𝖊 𝖆𝖈𝖙𝖎𝖛𝖔");
     }
   } catch (error) {
     console.error("Error:", error);
