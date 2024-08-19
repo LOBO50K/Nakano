@@ -11,9 +11,9 @@ let handler = async function (m, { conn, args, usedPrefix }) {
     let user = global.db.data.users[m.sender];
     user.registered = false;
 
-    m.reply(`💙 ¡𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚘 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝚊𝚖𝚎𝚗𝚝𝚎!\n𝙴𝚜𝚙𝚎𝚛𝚊𝚖𝚘𝚜 𝚝𝚞 𝚛𝚎𝚐𝚛𝚎𝚜𝚘 𝚙𝚛𝚘𝚗𝚝𝚘.`);
+    m.reply(`💙 ¡𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚘 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝚊𝚖𝚎𝚗𝚝𝚎!\n𝙴𝚜𝚙𝚎𝚛𝚊𝚖𝚘𝚜 𝚝𝚞 𝚛𝚎𝚐𝚛𝚎𝚜𝚘 𝚙𝚛𝚘𝚗𝚝𝚘 𝚗𝚘𝚜𝚘𝚝𝚛𝚊𝚜 𝚝𝚎 𝚎𝚜𝚙𝚎𝚛𝚊𝚛𝚎𝚖𝚘𝚜.`);
 
-    const imgUrl = "https://i.pinimg.com/564x/9e/d3/90/9ed390807819ddd00ed59b406b16a031.jpg";
+    const imgUrl = "https://telegra.ph/file/73815c532256e27d6a75f.jpg";
     const responseImg = await axios.get(imgUrl, { responseType: 'arraybuffer' });
     let txt = `
 ┌─「 *𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚘 𝙴𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘* 」
