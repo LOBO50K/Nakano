@@ -17,7 +17,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) throw '✳️ 𝙻𝚊 𝚎𝚍𝚊𝚍 𝚗𝚘 𝚙𝚞𝚎𝚍𝚎 𝚎𝚜𝚝𝚊𝚛 𝚟𝚊𝚌í𝚊.';
   if (name.length >= 30) throw '✳️ El nombre es muy largo.'; 
   age = parseInt(age);
-  if (age > 100) throw '👴🏻 ¡𝚄𝚗 𝚟𝚒𝚎𝚓𝚒𝚝𝚘 𝚚𝚞𝚒𝚎𝚛𝚎 𝚓𝚞𝚐𝚊𝚛 𝚊𝚕 𝚋𝚘𝚝!';
+  if (age > 999) throw '👴🏻 ¡joder,un viejo sabroso, tienes pensión?!';
   if (age < 5) throw '🚼 ¡𝙲𝚑𝚒𝚜𝚝𝚘𝚜𝚒𝚝𝚘! 𝚓𝚊𝚓𝚊𝚓𝚊';
   
   user.name = name.trim();
@@ -38,9 +38,9 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   │📝 𝚄𝚝𝚒𝚕𝚒𝚣𝚊 *${usedPrefix}𝚑𝚎𝚕𝚙* 𝚙𝚊𝚛𝚊 𝚟𝚎𝚛 𝚎𝚕 𝚖𝚎𝚗ú 𝚍𝚎 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜.
   │
   │💻 *𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙶𝙸𝚃𝙷𝚄𝙱:* 
-  │https://github.com/davidprospero123/REM-CHAM
+  │https://github.com/LOBO50K/Nakano.git
   │🌐 *𝙿𝙰𝙶𝙸𝙽𝙰 𝚆𝙴𝙱:
-  │https://rem-cham-bot.replit.app
+  │
   │
   │🔒 *𝙱𝙾𝚅𝙴𝙳𝙰:* ${user.bank} 𝙾𝚁𝙾
   │⚠️ *𝙰𝙳𝚅𝙴𝚁𝚃𝙴𝙽𝙲𝙸𝙰𝚂:* ${user.warn}
@@ -49,7 +49,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   ╰─「──────────────」
   `.trim();
 
-  const url = "https://telegra.ph/file/861d4dde6b2fd5f808183.jpg";
+  const url = "https://telegra.ph/file/131af9e06d16db7b7f9b4.jpg";
   const responseImg = await axios.get(url, { responseType: 'arraybuffer' });
   await conn.sendFile(m.chat, responseImg.data, "thumbnail.png", txt, m); 
   await m.react("✅");
